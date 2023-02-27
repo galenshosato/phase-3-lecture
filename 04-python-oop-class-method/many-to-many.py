@@ -25,3 +25,7 @@ if __name__ == '__main__':
     c1.bars = [bar1, bar2]
     c2.bars = [bar1, bar2]
     c3.bars = [bar1]
+
+    #get all cocktails per bar
+    for drink in bar1.cocktails:
+        print(drink.name)
